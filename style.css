@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+:root {
+	--white: hsl(0, 0%, 100%);
+	--lightGrey: hsl(217, 12%, 63%);
+	--mediumGrey: hsla(216, 12%, 54%, 0.205);
+	--darkBlue: hsl(214, 32%, 13%);
+	--veryDarkBlue: hsl(216, 12%, 8%);
+	--orange: hsl(25, 97%, 53%);
+	--font-family: 'Fraunces', serif;
+--font-family2: 'Inter', sans-serif;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+body,html{
+	background-color: var(--veryDarkBlue);
+	font-family: var(--font-family);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+	color: var(--white);
+}
+.card{
+width: 450px;
+height:450px;
+background-color: var(--darkBlue);
+border-radius:10px;
+justify-content: center;
+padding: 25px;
+
+font-family: var(--font-family2);
+}
+.star img{
+	background-color: var(--veryDarkBlue);
+	padding: 10px;
+	border-radius: 50%;
+}
+
+.header{
+	padding: 25px 0 18px 0;
+	font-size:1.8rem;
+}
+
+.paragraph{
+	line-height: 1.9rem;
+	font-weight: 100;
+}
+
+.rating-numbers{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	padding: 1rem;
+	margin: 12px;
+}
+
+.circle button{
+margin: 1rem;
+border: none;
+background-color:var(--veryDarkBlue);
+font-size: 18px;
+padding: 20px;
+border-radius: 100%;
+color: var(--white);
+cursor:pointer;
+}
+
+.submitbutton{
+	display: flex;
+	justify-content: center;
+}
+.submitbutton button{
+	width: 100%;
+	padding: 12px;
+	border: none;
+	border-radius: 30px;
+	font-size: 20px;
+	background-color:var(--orange);
+	color:var(--white);
+	letter-spacing: 5px;
+}
+
+.submitbutton button:hover{
+	background-color: var(--white);
+	color: var(--orange);
+}
+.circle button:hover{
+	background-color: var(--mediumGrey);
+}
+
+.circle button:active, .circle button:focus{
+	background-color: var(--orange);
+
+}
+
+.card2 img{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+padding: 35px;
+}
+
+.rating{
+	padding: 10px;
+background-color: var(--mediumGrey);
+width:50%;
+text-align: center;
+color: var(--orange);
+margin: 0 auto;
+border-radius: 20px;
+margin-bottom: 30px;
+}
+.heading{
+	padding-bottom: 15px;
+	text-align: center;
+}
+div .paragraph{
+font-size: 14px;
+font-weight: 100;
+text-align: justify;
+}

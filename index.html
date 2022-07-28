@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,100&display=swap" rel="stylesheet">  
+    <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main>
+   <div class="card active">
+    <div class="star">
+      <span><img src="./images/icon-star.svg" alt="star" class="circle-star"></span>
+    </div>
+
+    <h2 class="header">How did we do?</h2>
+    <p class="paragraph">Please let us know how we did with your support
+      request. All feedback is appreciated to help us improve our offering!</p>
+
+      <div class="rating-numbers">
+        <div class="circle">
+          <button class="Btn">1</button>
+        </div>
+
+        <div class="circle">
+									<button class="Btn">2</button>
+        </div>
+
+        <div class="circle">
+										<button class="Btn">3</button>
+								</div>
+          <div class="circle">
+											<button class="Btn">4</button>
+          </div>
+
+          <div class="circle">
+											<button class="Btn">5</button>
+          </div>
+        </div>
+
+
+								<div class="submitbutton">
+									<button type="submit" id="btn">Submit</button>
+							</div>
+      </div>
+
+      
+
+   </div>
+
+   <!-- thank you -->
+
+   <div class="card card2" hidden>
+    <img src="./images/illustration-thank-you.svg" alt="thank you">
+    <div>
+     <p class="rating">You selected <span class="span"> 4 </span> out of 5</p>
+    <h1 class="heading">Thank you!</h1>
+    <p class="paragraph">We appreciate you taking the time
+ to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+    </div>
+
+   </div>
+
+  
+
+  </main>
+
+ 
+
+  <script src="./app.js"></script>
+		<script src="./rating.js"></script>
+</body>
+</html>
